@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">叶片含水率</string>
+
+    <string name="bt_OnOff">开/关</string>
+    <string name="bt_Init">初始化</string>
+    <string name="bt_Clean">清除</string>
+
+    <string name="exit">Exit</string>
+    <string name="output">Exit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="options_cdcDischargeResistance">
+        <item>180kOhm</item>
+        <item>90kOhm</item>
+        <item>30kOhm</item>
+        <item>10kOhm</item>
+    </string-array>
+
+    <string-array name="options_cdcFalseMeasurement">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="options_rdcFalseMeasurement">
+        <item>2</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="options_rdcAverageNumber">
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+</resources>

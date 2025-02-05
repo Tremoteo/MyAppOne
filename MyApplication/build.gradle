@@ -1,0 +1,10 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    //apply false 表示在父项目中声明，但是父项目不会立即加载，可以在子项目中通过ID的方式进行使用
+    id 'com.android.application' version '7.4.2' apply false
+    id 'com.android.library' version '7.4.2' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
